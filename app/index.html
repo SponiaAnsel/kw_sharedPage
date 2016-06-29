@@ -48,46 +48,38 @@
             <p class="b">计时项目</p>
           </div>
           <div class="l_itemr">
-            00:00”00
+            <span><span class="progress_text">23.3</span>秒</span>
           </div>
         </li>
         <li class="l_item">
           <div class="l_iteml">
             <p class="t">射门</p>
-            <p class="b">计次项目：<span>12</span>次</p>
+            <p class="b">计次项目<span class="total-grade">12</span>次</p>
           </div>
           <div class="l_itemr">
-            <div class="progress_inner" style="width: 70px;height: 70px;font-size: 18.8px;">
-              <svg class="rc-progress-circle" viewBox="0 0 110 110">
-                <path class="rc-progress-circle-trail" d="M 55,55 m 0,-47 a 47,47 0 1 1 0,94 a 47,47 0 1 1 0,-94" stroke="#f3f3f3" stroke-width="10.5" fill-opacity="0"></path>
-                <path class="rc-progress-circle-path" d="M 55,55 m 0,-47 a 47,47 0 1 1 0,94 a 47,47 0 1 1 0,-94" stroke-linecap="round" stroke="#2db7f5" stroke-width="11" fill-opacity="0" style="stroke-dasharray: 295.31px, 295.31px;stroke-dashoffset: 45;transition: stroke-dashoffset 0.6s ease 0s, stroke 0.6s ease;">
-                </path>
-                <!-- 进度条显示的计算
-                第二块<path> stroke-dashoffset属性
-                计算： 295-(10/12*295）代表总分12，得分10的结果
-                -->
-              </svg>
-              <span class="progress_text">10</span>
-            </div>
+            <span>成功<span class="progress_text">10</span>次</span>
+          </div>
         </li>
       </ul>
-      </div>
-      <div class="listwrap">
-        <div class="wrap_tit">
-          <div class="wt_type">教练评语</div>
-        </div>
-        <ul class="wrap_con">
-          <li class="coach">Coach William</li>
-          <li class="evaluate">
-            陈建锋小朋友有很好的团队精神，多次协助队友完成几乎不可能的进攻，简直梅西第二。不得了啦～不得了啦，下学期务必再来学习！
-          </li>
-        </ul>
-      </div>
-      <footer class="home_footer">
-        <img src="http://placehold.it/42x56" alt="">
-        <p class="club">新安明珠俱乐部</p>
-      </footer>
     </div>
+    <div class="listwrap">
+      <div class="wrap_tit">
+        <div class="wt_type">教练评语</div>
+      </div>
+      <div class="wrap_con">
+        <div class="coach">Coach William</div>
+        <div class="evaluate">
+          陈建锋小朋友有很好的团队精神，多次协助队友完成几乎不可能的进攻，简直梅西第二。不得了啦～不得了啦，下学期务必再来学习！
+        </div>
+      </div>
+      <div class="wrap_con nodata">
+        暂无评语
+      </div>
+    </div>
+    <footer class="home_footer">
+      <img width="42px" height="56px" src="http://placehold.it/42x56" alt="clubLogo">
+      <p class="club">新安明珠俱乐部</p>
+    </footer>
 </body>
 
 </html>
